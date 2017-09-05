@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#58256c9c"
+    android:orientation="vertical">
+
+    <ViewAnimator
+        android:id="@+id/animator2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/L2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/L1">
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="What will you loose ?"
+                        android:textColor="#024351"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="casual"
+                        android:gravity="left"
+                        android:text="The next 30 days will certainly pass by whether you do anything or not. Take up a 30 days challenge and make the maximum out of it. If you are a beginner or just want to shape up your body, the workouts will help you. In 30 days, you will create a new fitness habit and achieve your fitness goals. "
+                        android:textColor="#024351"
+                        android:textSize="17dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/L1"
+                    app:layout_constraintBottom_toTopOf="@+id/L3"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/L2">
+
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Health Advice  !"
+                        android:textColor="#024351"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/t4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="casual"
+                        android:text="We advise you to not to take the 30 days fitness challenge if you have any medical condition. If you are suffering from neck or back pain or feel uneasy. We will not be responsible for any injuries that occur while performing any of the exercises. The exercise guides are just to educate and motivate you. Always strech before and after the exercise to avoid injury. "
+                        android:textColor="#024351"
+                        android:textSize="17dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/L2"
+                    app:layout_constraintBottom_toTopOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/L3">
+
+                    <TextView
+                        android:id="@+id/t5"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text=" The  Science  : "
+                        android:textColor="#024351"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/t6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="casual"
+                        android:text="30 days is just the right amount of time to take a new habit or break old ones. According to the new theory of biorhythms, every one's body clock has the same cycle of renewal. Our physical body works on the same 23 day cycle, our emotional body on a 28 day cycle and our intellectual body on a 33 day cycle. This makes one month an ideal time for self improvement."
+                        android:textColor="#024351"
+                        android:textSize="17dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+            </android.support.constraint.ConstraintLayout>
+        </ScrollView>
+    </ViewAnimator>
+</LinearLayout>

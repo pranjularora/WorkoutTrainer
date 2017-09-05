@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "141434945111",
+    "firebase_url": "https://workouttrainer-cd593.firebaseio.com",
+    "project_id": "workouttrainer-cd593",
+    "storage_bucket": "workouttrainer-cd593.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141434945111:android:4c34702edf3a4391",
+        "android_client_info": {
+          "package_name": "com.example.kuberkohli.fitness10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141434945111-lio2drhar97p32l7v2h3c2gmeplpf4qt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kuberkohli.fitness10",
+            "certificate_hash": "cb8547b580e283aa0c4db754e72e09c2e4809d9a"
+          }
+        },
+        {
+          "client_id": "141434945111-i9mbegpgdjljp6kb3m27p5n6ejs1caop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1mwTfTq_KIzT98xhJbijp5XEQA0MYE1Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141434945111-i9mbegpgdjljp6kb3m27p5n6ejs1caop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

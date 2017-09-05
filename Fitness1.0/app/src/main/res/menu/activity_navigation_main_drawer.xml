@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_drawer"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/user_icon"
+            android:title="User Profile" />
+        <item
+            android:id="@+id/map_drawer"
+            android:icon="@drawable/map_icon"
+            android:title="Gyms near me" />
+        <item
+            android:id="@+id/setting_drawer"
+            android:icon="@drawable/setting_icon"
+            android:title="Settings" />
+        <item
+            android:id="@+id/logout_drawer"
+            android:icon="@drawable/exit_icon"
+            android:title="Logout" />
+    </group>
+
+</menu>

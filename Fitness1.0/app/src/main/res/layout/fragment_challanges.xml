@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Challanges_fragment"
+    android:background="@color/tw__solid_white"
+    tools:context="com.example.kuberkohli.fitness10.View.ChallengesFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/challenges_frame">
+
+        <ViewAnimator
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/animator">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recviewer1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </ViewAnimator>
+    </RelativeLayout>
+
+</FrameLayout>

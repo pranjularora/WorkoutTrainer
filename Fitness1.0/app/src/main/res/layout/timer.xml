@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/tw__solid_white"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#abdef4f5">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/youtube_icon"
+            android:src= "@drawable/video"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"/>
+
+        <ImageView
+            android:layout_width="220dp"
+            android:id="@+id/gifTest"
+            android:layout_height="175dp"
+            android:src="@drawable/youtube_video"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <TextView
+            android:id="@+id/exerciseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/gifTest"
+            android:gravity="center"
+            android:textColor="#1e186c"
+            android:textSize="45dp"
+            android:fontFamily="cursive"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="140dp"
+            android:layout_above="@id/button"
+            android:gravity="center"
+            android:textColor="#1e186c"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#f9f9fa"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:text="Start"
+            android:background="@drawable/button_shape_shadowed" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/gifTest"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:indeterminate="false"
+            android:layout_above="@id/button"
+            android:max="48"
+            android:progress="1"
+            android:progressDrawable="@drawable/circular_progressbar" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_instruction_tab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#58256c9c"
+    tools:context="com.example.kuberkohli.fitness10.View.InstructionTabFragment">
+
+    <RelativeLayout
+        android:id="@+id/instruction_activity_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recviewer_inst"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Workout Trainer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_app_id">765929310250754</string>
+
+    <string name="shortcut_label">Begin Quick Workout</string>
+    <string name="shortcut_label_long">Begin Quick Workout</string>
+    <string name="shortcut_label_disable">Shortcut1_disable</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tab_navigation">WORKOUT TRAINER</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_key">AIzaSyCjaK8yKHTmgn5l9kEJPHY-oBVT6CwOax0</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Best Food in Syracuse</string>
+    <string name="slide_1_desc">Best restaurants for your family and friend!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every store near you!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+    <string name="title_activity_test">Map</string>
+    <string name="title_activity_maps">Near By Gyms</string>
+</resources>

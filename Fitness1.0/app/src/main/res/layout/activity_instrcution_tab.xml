@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kuberkohli.fitness10.View.InstrcutionTabActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#58256c9c"
+        android:id="@+id/instruction_detail_frame">
+        <ViewAnimator
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/animator1">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recviewer_inst_det"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </ViewAnimator>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
